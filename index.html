@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--This is for setting up the Bootstrap link correct?-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+  <!--This is for chat icons correct?-->
+  <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
+    defer></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Clone Site</title>
+</head>
+
+<body class="debug">
+  <header>
+    <div class="container">
+      <section class="row">
+        <div class="d-flex justify-content-between py-5 ">
+          <!--'col-12' isn't organizing the row in single line but 'container' does. Why?-->
+          <a href="_blank" class="text-decoration-none">
+            <h2 class="leadr">
+              109leadr
+            </h2>
+          </a>
+          <div class=" d-flex gap-5"> <!--gap-5 is needed with d-flex? Why?-->
+            <a href="_blank" class="text-light text-decoration-none">
+              FEATURED
+            </a>
+            <a href="_blank" class="text-light text-decoration-none">
+              START NOW
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-6">
+          <h1>You jobs, our news.</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione saepe et iusto cum eligendi
+            eaque sint
+            dignissimos modi quos aperiam nisi temporibus exercitationem neque tempore dolorem distinctio, natus
+            asperiores laborum?</p>
+          <div>
+            <button class="btn btn-outline-light">Apple</button>
+            <button class="btn btn-outline-light">Google</button>
+          </div>
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+          <img class="img-fluid news-phone"
+            src="https://static.vecteezy.com/system/resources/previews/028/691/569/non_2x/news-on-mobile-phone-free-png.png"
+            alt="Phone News Picture">
+          <!--Not sure what I did wrong here but "Phone News.png". Why can't I see the pic?-->
+        </div>
+      </section>
+    </div>
+    </div>
+    <nav>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <!--Features with Jobs & News-->
+      <div class="row">
+        <div class="col-12">
+          <div class="text-center p-5">
+            <h3>
+              Features
+            </h3>
+            <p class="px-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem saepe ad velit deleniti cum, nostrum
+              cupiditate vero expedita laudantium dolor necessitatibus accusantium placeat repellat qui nisi alias
+              itaque tempore ab.
+            </p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="text-center">
+            <i class="mdi mdi-briefcase fs-3"></i>
+            <!--Why doesn't the icon center when putting class "text-center" but does at the class above?-->
+            <h4>
+              Your Jobs
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis ipsa autem ea totam modi eaque vel ab
+              dolor! Natus nemo eligendi quasi repellendus vero tempore soluta suscipit distinctio earum quam.
+            </p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="text-center">
+            <i class="mdi mdi-book-open fs-3"></i>
+            <h4 class="text-center">Read News</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minus, eius numquam aperiam autem
+              voluptates dolores commodi temporibus doloribus nesciunt reiciendis non, nostrum iusto praesentium quas
+              officia dolorum eveniet dolorem?</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="text-center">
+            <i class="mdi mdi-chat fs-3"></i>
+            <h4 class="text-center">News about jobs</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis dicta laudantium neque doloribus
+              possimus vel quos dolorem delectus eum explicabo saepe quo ex, nulla ullam natus quidem est perferendis
+              et!</p>
+          </div>
+        </div>
+        <!--This was in the example to copy but gave error in debugging tool. Was there a reason for this? Was this suppose to go outside of the row and into the next instead? 
+        <div class="row">
+        </div> -->
+      </div>
+      <!--Video and Professional-->
+      <div class="row " style="background-color: #86c3e2;">
+        <div class="col-6 background-video-phone d-flex align-items-center justify-content-center">
+          <div>
+            <div class="text-center fs-2 text-light">
+              <i class="mdi mdi-play-circle"></i>
+              <p>Play Video</p> <!--Why does Bold show on the same line as the icon but not print?-->
+            </div>
+          </div>
+        </div>
+        <div class="col-6 text-light d-flex align-items-center">
+          <div>
+            <h2>
+              Notizie per più di 17 professioni
+            </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero nihil suscipit minima
+              repudiandae nisi beatae ad consequuntur, fuga dignissimos quod voluptatem eius. Aliquam sint laborum
+              nostrum expedita aut hic.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container text-light" style="background-color: #364049;">
+      <div class="row align-items-center">
+        <div class="col-4 p-3">
+          <div>
+            <h2 class="leader">
+              109leadr
+            </h2>
+            <p>
+              109Leadr e un brand di 109Press.it,
+              Via San Camillo 8, Messinaw
+            </p>
+          </div>
+        </div>
+        <div class="col-4 text-center fs-2">
+          <div>
+            <i class="mdi mdi-apple"></i>
+            <i class="mdi mdi-android"></i>
+          </div>
+        </div>
+        <div class="col-4 p-5">
+          <div>
+            <i class="mdi mdi-facebook" title="facebook"></i>
+            <i class="mdi mdi-twitter" title="twitter"></i>
+          </div>
+          <b>
+            Redazione - Credits
+          </b>
+        </div>
+        <!-- <div class="col-4">
+          <div class="p-5">
+            <div>
+              <i class="mdi mdi-facebook" title="facebook"></i>
+              <i class="mdi mdi-twitter" title="twitter"></i>
+            </div>
+            <b>
+              Redazione - Credits
+            </b>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
